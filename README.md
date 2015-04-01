@@ -1,2 +1,3 @@
 # QCloud
-qingcloud api(php)
+qingcloud api
+- only php provided for now

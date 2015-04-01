@@ -7,12 +7,12 @@ class QCloud {
 	private $errcode = 0;
 
 	private $url = '';
-	private $access_key_id = 'RTRVPRAKSCERZWUZMXEC';			//调试用access_key，qcloud提供
-	private $secret_access_key = 'xuep9bRyLj9FyR67lhsvpbLGNWhlQuUtemMUcLSq';				//调试用secret_key，qcloud提供
+	private $access_key_id = 'RTRVPRAKSCERZWUZMXEC';
+	private $secret_access_key = 'xuep9bRyLj9FyR67lhsvpbLGNWhlQuUtemMUcLSq';
 
-	public $entrance = 'https://api.qingcloud.com/iaas/?';		//api入口		part I
+	public $entrance = 'https://api.qingcloud.com/iaas/?';
 
-	private $public_args = array(								//公共参数		part II
+	private $public_args = array(
 			'action' => '',
 			'time_stamp' => '',
 			'access_key_id' => '',

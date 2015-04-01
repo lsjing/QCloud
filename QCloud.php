@@ -8,7 +8,7 @@ class QCloud {
 
 	private $url = '';
 	private $access_key_id = 'RTRVPRAKSCERZWUZMXEC';			//调试用access_key，qcloud提供
-	private $secret_access_key = 'EMKp9bRyLj9FyR67lhsvpbLGNWhlQuUtemMUcLSq';				//调试用secret_key，qcloud提供
+	private $secret_access_key = 'xuep9bRyLj9FyR67lhsvpbLGNWhlQuUtemMUcLSq';				//调试用secret_key，qcloud提供
 
 	public $entrance = 'https://api.qingcloud.com/iaas/?';		//api入口		part I
 
